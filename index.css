@@ -1,0 +1,247 @@
+*{
+    
+}
+.button-primary{
+    color:white;
+    background-color: rgb(22, 7, 88);   
+    text-align: center;
+    width:100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 0; 
+    box-shadow: 0px 6px 20px rgba(122, 118, 118, 0.178);
+}
+.button-primary:hover {
+    background-color:pink;
+    color:white;
+}
+.button-primary-h{
+    color: white;
+    background-color: rgb(22, 7, 88);
+    display: flex;
+    margin-left: 47%;
+    margin-bottom: 20px;
+    justify-content:center;
+    align-items:center;
+    width:100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 0; 
+    box-shadow: 0px 6px 20px rgba(122, 118, 118, 0.178); 
+}
+.button-primary-h:hover {
+    background-color:pink;
+    color:white;
+}
+.button-primary-b{
+    color: white;
+    background-color: rgb(22, 7, 88);
+    display: flex;
+    margin-left: 44%;
+    justify-content:center;
+    align-items:center;
+    width:100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 0; 
+    box-shadow: 0px 6px 20px rgba(122, 118, 118, 0.178); 
+}
+.button-primary-b:hover {
+    background-color:pink;
+    color:white;
+}
+.button-primary-o{
+    color: white;
+    background-color: rgb(22, 7, 88);
+    display: flex;
+    margin-left: 42;
+    justify-content:center;
+    align-items:center;
+    width:140px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 0; 
+    box-shadow: 0px 6px 20px rgba(122, 118, 118, 0.178); 
+}
+.button-primary-o:hover {
+    background-color:pink;
+    color:white;
+}
+
+                
+/* header{
+    background-image:linear-gradient(to bottom,rgba(18, 18, 18, 0) , rgba(18, 18, 18, 1)), url('donate-today-main/images/donation0.jpg');        
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  */
+header{
+    background-image:linear-gradient(to bottom,rgba(18, 18, 18, 0) , rgba(18, 18, 18, 1)), url('donate-today-main/images/donation0.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.banner{
+
+}
+.banner-tittle{
+    color: white;
+    font-size:40px;
+    text-align:center;
+}
+.banner-desctription{
+    color:white;
+    text-align:center;
+}
+
+/* main (section)styles */
+
+.donate-today{
+   text-align: center;
+}
+.our-donate-plan{
+    text-align: center;
+}
+
+.ins-container{
+    display: flex;
+    gaps:24px;
+}
+.instruction{  
+    background-color: rgba(22, 7, 88, 0.459);
+    box-shadow: 0px 6px 20px rgba(122, 118, 118, 0.178); 
+    border-radius: 5px;
+    margin:5px;
+    padding:30px;
+}
+.ins-head{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+
+}
+.ins-para{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+
+}
+.core{
+    margin: 100px 130px;
+    background: white;
+    border-radius: 10px;
+    padding: 130px 150px;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 20px rgb(122 118 118 / 46%);
+    text-align: center;
+}
+
+/* .depend{
+    display: flex;
+    text-align: justify;
+    gap: 94px;
+    margin: 0px 0px;
+} */
+.survive{
+    display:flex;
+    text-align: justify;
+    gap: 94px;
+    margin: 0px 0px;
+    margin-bottom: 80px;
+}
+.depend{
+    display:flex;
+    text-align:justiy;
+    gap: 94px;
+    margin:0px 30px;
+}
+.update{
+    text-align: center;
+}
+.same-heading{
+    text-align: center;
+    font-weight: 800;
+}
+.same-paragraph{
+    color: #6e6a6a;
+    text-align: center;
+    
+}
+
+/* main (sub-section)styles */
+
+.sub-section{   
+    display: flex;
+    margin-left: 12%;
+}
+
+.one-k{
+    color: rgb(255, 255, 255); 
+    background-color: rgb(22, 7, 88); 
+    font-weight: 700;
+    display: flex:;
+    margin:10px;
+    padding:25px;
+    border-radius:5px;
+    box-shadow: 0px 6px 20px rgba(122, 118, 118, 0.178); 
+} 
+.one-k:hover {
+    display: block;
+    background-color:pink;
+  }
+.p{
+    color:#707070;
+    line-height: 20%;
+}
+input{
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+}
+/* footer styles */
+.footer{
+    font-family: 'Tangerine', serif;
+    background-color: pink;
+    margin:;
+    padding: 30px 50px;;
+   
+    font-size: 15px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
