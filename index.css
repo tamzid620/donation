@@ -1,16 +1,19 @@
 *{
-    
+    /* margin: 0; */
 }
 .button-primary{
     color:white;
     background-color: rgb(22, 7, 88);   
     text-align: center;
+    align-items: center;
+    justify-content: center;
     width:100px;
     height: 50px;
     border-radius: 5px;
     font-size: 15px;
     border: 0; 
     box-shadow: 0px 6px 20px rgba(122, 118, 118, 0.178);
+    border: 1px solid  rgba(22, 7, 88, 0.459);
 }
 .button-primary:hover {
     background-color:pink;
@@ -20,7 +23,7 @@
     color: white;
     background-color: rgb(22, 7, 88);
     display: flex;
-    margin-left: 47%;
+    margin-left: 38%;
     margin-bottom: 20px;
     justify-content:center;
     align-items:center;
@@ -38,8 +41,8 @@
 .button-primary-b{
     color: white;
     background-color: rgb(22, 7, 88);
-    display: flex;
-    margin-left: 44%;
+    
+    text-align: center;
     justify-content:center;
     align-items:center;
     width:100px;
@@ -56,11 +59,9 @@
 .button-primary-o{
     color: white;
     background-color: rgb(22, 7, 88);
-    display: flex;
-    margin-left: 42;
     justify-content:center;
     align-items:center;
-    width:140px;
+    width:150px;
     height: 50px;
     border-radius: 5px;
     font-size: 15px;
@@ -73,12 +74,6 @@
 }
 
                 
-/* header{
-    background-image:linear-gradient(to bottom,rgba(18, 18, 18, 0) , rgba(18, 18, 18, 1)), url('donate-today-main/images/donation0.jpg');        
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}  */
 header{
     background-image:linear-gradient(to bottom,rgba(18, 18, 18, 0) , rgba(18, 18, 18, 1)), url('donate-today-main/images/donation0.jpg'); 
     background-repeat: no-repeat;
@@ -90,7 +85,7 @@ header{
     justify-content: center
 }
 .banner{
-
+    padding-top:350px ;
 }
 .banner-tittle{
     color: white;
@@ -106,14 +101,23 @@ header{
 
 .donate-today{
    text-align: center;
+   margin-top:100px ;
 }
 .our-donate-plan{
     text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.p{
+    margin-top: 50px;
 }
 
 .ins-container{
     display: flex;
-    gaps:24px;
+    gap:24px;
+    justify-content: center;
+    margin-right: 250px;
+    margin-left: 250px;
 }
 .instruction{  
     background-color: rgba(22, 7, 88, 0.459);
@@ -140,36 +144,34 @@ header{
 
 }
 .core{
-    margin: 100px 130px;
     background: white;
     border-radius: 10px;
-    padding: 130px 150px;
-    background-color: #ffffff;
-    box-shadow: 0px 6px 20px rgb(122 118 118 / 46%);
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-/* .depend{
-    display: flex;
-    text-align: justify;
-    gap: 94px;
-    margin: 0px 0px;
-} */
 .survive{
     display:flex;
-    text-align: justify;
+    text-align: center;
     gap: 94px;
-    margin: 0px 0px;
+    margin-right: 250px;
+    margin-left: 250px;
     margin-bottom: 80px;
+    justify-content: center;
+    text-align: center;
 }
 .depend{
     display:flex;
-    text-align:justiy;
+    justify-content: center;
+    text-align: center;
     gap: 94px;
-    margin:0px 30px;
+    margin-right: 250px;
+    margin-left: 250px;
 }
 .update{
     text-align: center;
+    margin-top: 100px;
 }
 .same-heading{
     text-align: center;
@@ -185,14 +187,16 @@ header{
 
 .sub-section{   
     display: flex;
-    margin-left: 12%;
+    /* margin-left: 12%; */
+    align-items: center;
+    justify-content: center;
 }
 
 .one-k{
     color: rgb(255, 255, 255); 
     background-color: rgb(22, 7, 88); 
     font-weight: 700;
-    display: flex:;
+    display: flex;
     margin:10px;
     padding:25px;
     border-radius:5px;
@@ -206,7 +210,18 @@ header{
     color:#707070;
     line-height: 20%;
 }
+#form{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color:  pink;
+}
 input{
+    justify-content: center;
     width: 200px;
     height: 45px;
     border-radius: 5px;
@@ -215,20 +230,130 @@ input{
 .footer{
     font-family: 'Tangerine', serif;
     background-color: pink;
-    margin:;
+    /* margin:; */
     padding: 30px 50px;;
    
     font-size: 15px;
     text-shadow: 4px 4px 4px #aaa;
 }
 
+/*================== Media Qurey ================== */
 
 
 
+@media screen and (max-width:576px) {
+.button-primary-b{
+        margin-top: 10px;
+        margin-bottom: 20px;
+}
+.button-primary-o{
+        margin-top: 10px;
+        margin-bottom: 20px;
+}
 
+.donate-today{
+    margin-top: 100px;
+}
+.sub-section{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.one-k{
+    
+    justify-content: center;
+}
+.p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.our-donate-plan{
+    margin-top: 100px;
+}
+.ins-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.survive{
+    margin-top: 100px;
+    flex-direction: column;
+    /* gap:15px; */
+    margin-left: -250px;
+    margin-right: -250px;
+}
+.group-t{
+    margin-top: -100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+.depend{
+    flex-direction:column-reverse;
+    gap:15px;
+    margin-left: -250px;
+    margin-right: -250px;
+}
+.group-o{
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+.update{
+    flex-direction: column;
+    margin-top: 100px;
+}
+.same-heading{
+    font-size: 30px;
+}
+.same-paragraph{
+    
+    line-height: 30px;
+    font-size: 30px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 190px;
+}
 
+}
 
-
+@media screen and (min-width:577px)  and (max-width:992px) {
+    .ins-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .survive{
+        /* text-align: left; */
+        align-items: center;
+        gap: 50px;
+    }
+    .depend{
+        /* text-align: right; */
+        align-items: center;
+        gap: 50px;
+    }
+    .update{
+        justify-content: center;
+        align-items: center;
+    }
+    #form{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
 
 
 
